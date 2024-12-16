@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>SAMBA-Config-Creator</title>
+		<link rel="stylesheet" src"./styles.css<">
+	</head>
+	<body>
+		<div id="options">
+			<label for="share_name">Share name:</label>
+			<input id="share_name"></br>
+			
+			<label for="path">Path:</label>
+			<input id="path"></br>
+
+			<label for="comment">Comment:</label>
+			<input id="comment"></br> 
+
+			<label for="checkbox_browseable">Browseable?</label>
+			<input type="checkbox" id="checkbox_browseable"></br>
+			
+			<label for="checkbox_read_only">Read only?</label>
+			<input type="checkbox" id="checkbox_read_only"></br>
+
+			<label for="checkbox_valid_users">Valid users?</label>
+			<input type="checkbox" id="checkbox_valid_users"></br>
+			<input id="valid_users"></br>
+
+			<label for="checkbox_write_list">Write list?</label>
+			<input type="checkbox" id="checkbox_write_list"></br>
+			<input id="write_list"></br>
+		</div>
+		<div id="output">
+			<label for="output_config">Your config:</label>
+			<p id="output_config"></p></br>
+		</div>
+		<script src="index.js"></script>
+	</body>
+</html>
